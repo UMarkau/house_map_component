@@ -6,10 +6,6 @@ import Paper from '@material-ui/core/Paper';
 import uuidv1 from 'uuid/v1';
 
 export default class HouseMap extends Component {
-    state = {
-        template: null
-    };
-
     buildHouseMapElement = field => {
         const { data } = this.props;
         switch (field) {
